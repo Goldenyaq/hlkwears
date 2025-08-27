@@ -1,0 +1,245 @@
+/* nav1 */
+.navbar1{
+    margin-top: 20px;
+    
+
+    input{
+        padding: 3px;
+        border-radius: 30px;
+        width: 50%;
+        float: left;
+        margin-left: 10px;
+        outline: none;
+        border: none;
+
+    
+    }
+
+
+
+    input[placeholder]{
+        padding-left: 20px;
+    }
+
+    button{
+        background-color: #094cb8;
+        padding: 12px;
+        border-radius: 30px;
+        color: white;
+        border: none;
+        width: 60px;
+    }
+
+    button:hover{
+        background-color: darkblue;
+        transition: 0.3s ease;
+    }
+
+}
+/* Navbar 2 */
+.navbar-nav .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+.navbar-nav .nav-link:hover{
+    color: #094cb8;
+}
+
+.active{
+    color: #094cb8 !important;
+}
+
+/* End Nav 2 */
+
+.navicon{
+    font-size: x-large;
+    padding-left: 200px !important;
+    display: flex;
+    justify-content: space-between;
+}
+/* Icon button */
+
+.icon-btn{
+    position: relative;
+    margin-left: 15px;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.icon-btn .badge{
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    font-size: 0.7rem;
+    background-color: #023c6e;
+}
+
+
+.icon-btn:hover{
+    color: #094cb8;
+
+}
+
+
+
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.container{
+    /* margin-top: 10px; */
+}
+.content .new{
+background-color: #dae5f5;
+padding: 10px;
+text-align: center;
+color:#094cb8 ;
+font-size: 0.8em;
+font-weight: 700;
+border-radius: 20px;
+font-family: 
+}
+
+.content h1{
+    font-size: 3.7em;
+    color: #023c6e;
+    
+}
+.content h1 span{
+    color: #094cb8;
+    text-decoration: underline #dae5f5 ;
+}
+.content button{
+    /* background-color: #094cb8 */
+    padding: 10px ;
+}
+
+.description{
+    color: #4d5154;
+    font-weight:400 !important ;
+
+}
+
+.image img{
+    height: 600px;
+    width: 420px;
+    margin-left: 150px;
+    
+}
+
+/* services */
+
+
+.fly{
+    transition: transform 0.3s ;
+
+}
+.fly:hover{
+    transform: translate(0px, -5px);
+    h3{
+        color:#094cb8
+    }
+
+}
+
+/* wears display */
+.card{
+    background-color: #f5f5f5 !important;
+    width: 200px !important;
+    padding-top: 20px;
+    border: none !important;
+}
+
+.card h5{
+    color: #094cb8;
+}
+
+.card img{
+    height: 150px;
+}
+
+/* add to cart */
+.shadow{
+    width: 280px !important;
+    transition: transform 0.5s !important;
+    border-radius: 10px;
+    border-bottom: 10px;
+}
+
+.shadow:hover{
+ transform: translate(0px,-8px);
+}
+
+
+.bstsl-img{
+    max-height: 300px;
+}
+
+.bstsl-text{
+    position: relative;
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* gallery */
+
+.menu a{
+    background-color:#f5f5f5;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+.menu a:hover{
+    color: darkblue;
+    background-color: #c0d7ea;
+}
+
+.menu a:active{
+    background-color: darkblue;
+    color: white;
+}
+
+.view a{
+    display: inline-block;
+    color: white;
+    background-color:darkblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* news letter */
+
+.newsletter{
+    background-color: #f0f4fa;
+    color: #023c6e;
+
+    input{
+        padding: 10px;
+        border-radius: 40px;
+        width: 35%;
+    
+    }
+
+    button{
+        background-color: #094cb8;
+        padding: 15px;
+        border-radius: 40px;
+        color: white;
+        border: none;
+    }
+
+    button:hover{
+        background-color: darkblue;
+        transition: 0.3s ease;
+    }
+
+}
+
+
+
