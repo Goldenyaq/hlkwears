@@ -241,5 +241,85 @@ font-family:
 
 }
 
+/* Contact */
+.contact a{
+    text-decoration:none;
+    color: #4d5154;
+}
+
+.contact a:hover{
+        color: darkblue;
+}
+
+.store button{
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    transition: transform 0.5s !important;
+
+}
+
+.store button:hover{
+    background-color: darkblue;
+    a{
+        color: white;
+    }
+
+    span{
+        color:white
+    }
+
+    transform: translate(0px,-8px);
+    transition:0.3s ease;
+
+    
+}
+
+
+.social-handle a{
+    background: #ebebeb;
+    padding: 5px;
+    border-radius: 40px;
+    text-align: center;
+    color: black;
+
+}
+
+.social-handle a:hover{
+    background-color: darkblue;
+    color: white;
+    transition: 0.2s ease;
+    
+}
+
+/* End of Contact */
+
+/* footer */
+
+.footer{
+    background-color: #f0f4fa;
+    text-align: center;
+}
+
+.footer .icon a{
+    color: #4d5154;
+    text-decoration: none;
+
+}
+.footer .icon a:hover{
+    color: #094cb8;
+}
+
+.terms a{
+    color: #4d5154;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.terms a:hover{
+    color: blue;
+
+}
+
 
 
