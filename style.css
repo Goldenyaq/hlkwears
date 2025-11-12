@@ -1,6 +1,7 @@
 /* nav1 */
 .navbar1{
-    margin-top: 20px;
+     margin-top: 20px;
+     
     
 
     input{
@@ -40,6 +41,7 @@
 .navbar-nav .nav-link {
       padding-right: 1rem;
       padding-left: 1rem;
+    
     }
 .navbar-nav .nav-link:hover{
     color: #094cb8;
@@ -89,9 +91,6 @@
   font-weight: 700;
   font-style: normal;
 }
-.container{
-    /* margin-top: 10px; */
-}
 .content .new{
 background-color: #dae5f5;
 padding: 10px;
@@ -100,7 +99,7 @@ color:#094cb8 ;
 font-size: 0.8em;
 font-weight: 700;
 border-radius: 20px;
-font-family: 
+
 }
 
 .content h1{

@@ -62,47 +62,12 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Add</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Category</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Product Details</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Get</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Option 1</a></li>
-                                <li><a class="dropdown-item" href="#">Option 2</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- Megamenu (simulated with dropdown for simplicity) -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                Megamenu
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Mega Option 1</a></li>
-                                <li><a class="dropdown-item" href="#">Mega Option 2</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- Second Megamenu -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                Megamenu
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Mega Option A</a></li>
-                                <li><a class="dropdown-item" href="#">Mega Option B</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item"><a class="nav-link" href="#">Content</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#collections">Collections</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#bestsellers">Best Sellers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#kidwears">Kid Wears</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -111,7 +76,7 @@
         <!-- End  of Nav 2 -->
     </header>
     <!-- home page -->
-    <div class="">
+    <div class="" id="home">
         <div class="hero mt-5 container">
             <div class="row">
                 <div class="col-md-6">
@@ -121,11 +86,14 @@
                         <p class="description lead"> We sell quality wears that combine comfort, style, and
                             affordability, giving you the perfect look for every occasion. From casual to classy, Our
                             collections are carefully selected to make you stand out with confidence. </p>
-                        <div>
-                            <button class="btn btn-primary btn-sm me-3">Shop Now <span
+                        <a href="#bestsellers"> <button class="btn btn-primary btn-sm me-3">Shop Now <span
                                     class="fas fa-arrow-right"></span></button>
-                            <button class="btn btn-outline-secondary  btn-sm">View Collections</button>
-                        </div>
+                        </a>
+                        
+                            <a href="#collections"><button class="btn btn-outline-secondary  btn-sm">View
+                                    Collections</button>
+                            </a>
+                        
 
                         <ul class="list-inline mt-4">
                             <li class="list-inline-item"><span class="bi bi-truck text-primary"></span> Free Shipping
@@ -152,7 +120,7 @@
         </div>
     </div>
     <!-- Services -->
-    <div class="service mt-5 container-fluid" style="background-color:#f5f8fc">
+    <div class="service mt-5 container-fluid" style="background-color:#f5f8fc" id="services">
         <div class="row py-5">
             <div class="col-md-3 text-center fly" style="color: #2d475e; font-weight: 100; font-size: large;">
                 <h3 class="bi bi-truck fs-1"></h3>
@@ -182,7 +150,7 @@
     </div>
 
     <!--wears display  -->
-    <div class="wears-display container my-5 ">
+    <div class="wears-display container my-5 " id="collections">
         <div style="text-align: center;">
             <h1 style="color: #2d475e;">Our Hoodie Collections</h1>
         </div>
@@ -232,7 +200,7 @@
     </div>
 
     <!-- Best Sellers -->
-    <div class="container">
+    <div class="container" id="bestsellers">
         <h2 class="text-center" style="color: #2d475e;font-family:Arial, Helvetica, sans-serif; font-weight: bold;">Best
             Sellers</h2>
         <p class="text-center">Amazing outfits for any events,outing,birthdays or casual wears</p>
@@ -345,7 +313,7 @@
     </div>
 
     <!-- Gallery -->
-    <div class="gallery my-5">
+    <div class="gallery my-5" id="kidwears">
         <div class="menu justify-content-center d-flex mb-5">
             <a href="" class="mx-2">All</a>
             <a href="" class="mx-2">Hoodies</a>
@@ -553,7 +521,7 @@
 
     <!--Contact div -->
 
-    <div class="container">
+    <div class="container" id="contact">
         <div class="contact row my-5 py-3">
             <div class="col-md-3">
                 <h3>hlkStore</h3>
@@ -697,6 +665,7 @@
 
     </footer>
 
-    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script></body>
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
 </html>
